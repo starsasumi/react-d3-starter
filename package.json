@@ -4,8 +4,28 @@
   "description": "A starter project aimed for data visulization with React and D3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
+    "start": "open ./build/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starsasumi/react-d3-starter.git"
   },
   "author": "starsasumi",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "file-loader": "^0.8.5",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "d3": "^3.5.13",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
 }
