@@ -1,7 +1,7 @@
 {
   "name": "react-d3-starter",
   "version": "1.0.0",
-  "description": "A starter project aimed for data visulization with React and D3",
+  "description": "A starter project aimed for data visualization with React and D3",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
