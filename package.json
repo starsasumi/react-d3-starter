@@ -1,0 +1,11 @@
+{
+  "name": "react-d3-starter",
+  "version": "1.0.0",
+  "description": "A starter project aimed for data visulization with React and D3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "starsasumi",
+  "license": "MIT"
+}
