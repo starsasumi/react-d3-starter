@@ -51,4 +51,5 @@ This is the project structure after a `webpack` build:
     ├── .gitignore
     ├── package.json
     ├── README.md
-    └── webpack.config.js   // Webpack's configuration file
+    ├── webpack.config.js   // Webpack's configuration file
+    └── webpack.production.config.js   // Webpack's configuration file for deployment
