@@ -20,7 +20,7 @@ d3Circle.update = function(el, state) {
   this._drawPoints(el, scales, state.data);
 };
 
-d3Circle.destroy = function(el) {
+d3Circle.destroy = function(el) { // eslint-disable-line no-unused-vars
   // Any clean-up would go here
   // in this example there is nothing to do
 };

@@ -16,7 +16,7 @@ module.exports = {
       }
     }, {
       test: /\.html$/,
-      loader: "file?name=[name].[ext]",
+      loader: 'file?name=[name].[ext]'
     }]
   }
 };

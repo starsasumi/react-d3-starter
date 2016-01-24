@@ -10,7 +10,7 @@ var Chart = React.createClass({
 
   componentDidMount: function() {
     // Get the DOMElement that would be used to insert the chart
-    var el = ReactDOM.findDOMNode(this).getElementsByClassName("Chart")[0];
+    var el = ReactDOM.findDOMNode(this).getElementsByClassName('Chart')[0];
 
     d3Circle.create(el, {
       width: '100%',
