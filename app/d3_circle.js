@@ -68,4 +68,4 @@ d3Circle._drawPoints = function(el, scales, data) {
       .remove();
 };
 
-module.exports = d3Circle;
+export default d3Circle;

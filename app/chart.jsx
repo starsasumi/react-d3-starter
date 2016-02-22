@@ -49,4 +49,4 @@ Chart.propTypes = {
     domain: React.PropTypes.object
 };
 
-module.exports = Chart;
+export default Chart;
