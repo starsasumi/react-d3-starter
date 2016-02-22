@@ -21,6 +21,8 @@ module.exports = {
       }, {
         test: /\.html$/,
         loader: 'file?name=[name].[ext]'
+      }, {
+        test: /\.css$/, loader: 'style!css'
       }]
     }
 };
